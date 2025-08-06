@@ -4208,7 +4208,7 @@ function Airflow:Init(config)
 	Headers.Name = Airflow:RandomString()
 	Headers.Parent = WindowFrame
 	Headers.AnchorPoint = Vector2.new(0.5, 0)
-	Headers.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
+	Headers.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Headers.BackgroundTransparency = 1.000
 	Headers.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Headers.BorderSizePixel = 0
