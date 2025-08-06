@@ -4107,7 +4107,7 @@ function Airflow:Init(config)
 	WindowFrame.Name = Airflow:RandomString()
 	WindowFrame.Parent = AirflowWindow
 	WindowFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	WindowFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	WindowFrame.BackgroundColor3 = Color3.fromRGB(166, 166, 166)
 	WindowFrame.BackgroundTransparency = 1
 	WindowFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	WindowFrame.BorderSizePixel = 0
@@ -4208,7 +4208,7 @@ function Airflow:Init(config)
 	Headers.Name = Airflow:RandomString()
 	Headers.Parent = WindowFrame
 	Headers.AnchorPoint = Vector2.new(0.5, 0)
-	Headers.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	Headers.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Headers.BackgroundTransparency = 1.000
 	Headers.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Headers.BorderSizePixel = 0
@@ -5219,7 +5219,7 @@ function Airflow:DrawList(config)
 	UIStroke.Color = Color3.fromRGB(125, 125, 125)
 	UIStroke.Parent = ListFrame
 
-	Headers.Name = Airflow:RandomString()
+	Headers.Name = "Hello"
 	Headers.Parent = ListFrame
 	Headers.AnchorPoint = Vector2.new(0.5, 0)
 	Headers.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
